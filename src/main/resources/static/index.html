@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!-- Head -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0">
+<link rel="stylesheet" id="general-css" href="./css/general.css" type="text/css" media="all">
+<link rel="stylesheet" id="category-css" href="./css/category.css" type="text/css" media="all">
+<link rel="stylesheet" id="detail-css" href="./css/detail.css" type="text/css" media="all">
+<link rel="stylesheet" id="contact-css" href="./css/contact.css" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-css" href="./css/magnific.css" type="text/css" media="all">
+<link rel="stylesheet" id="reservation-css" href="./css/reservation.css" type="text/css" media="all">
+<link rel="stylesheet" id="archive-css" href="./css/archive.css" type="text/css" media="all">
+<link rel="stylesheet" id="comments-css" href="./css/comments.css" type="text/css" media="all">
+<link rel="stylesheet" id="video-css" href="./css/video.css" type="text/css" media="all">
+<link rel="stylesheet" id="default-css" href="./css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery-migrate.min.js"></script>
+<meta name="generator" content="WordPress 3.9.1">
+
+<!-- Fonts -->
+<link href="./css" rel="stylesheet" type="text/css">
+
+<!-- Javascript -->
+<!-- Maps -->
+<script type="text/javascript" src="./js/js"></script>
+
+<!-- CSS -->
+
+<style type="text/css">
+body {
+	background-color: #ccc;
+	background: url(./img/1240.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.custom-color, .widget-title {
+	color: #26bc8c;
+}
+
+.custom-color-back {
+	background-color: #17ad7d !important;
+}
+
+.custom-color-btn-back, .comments #submit, #searchsubmit {
+	background-color: #26bc8c !important;
+	-webkit-transition: background-color 0.3s ease-out;
+	-moz-transition: background-color 0.3s ease-out;
+	-o-transition: background-color 0.3s ease-out;
+	transition: background-color 0.3s ease-out;
+}
+
+.custom-color-btn-back:hover, .comments #submit:hover, #searchsubmit:hover
+	{
+	background-color: #089e6e !important;
+}
+
+.detail a {
+	color: #26bc8c !important;
+}
+
+a:hover {
+	color: #26bc8c !important;
+}
+</style>
+
+<title>Jay's Home Page</title>
+<script type="text/javascript" charset="UTF-8" src="./js/common.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./js/util.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./js/stats.js"></script>
+<script type="text/javascript" charset="UTF-8" src="./js/Authen.Authenticate"></script>
+</head>
+
+<!-- Body -->
+<body class="home blog home my-custom-class">
+	<!--This wrapper define the whole page  -->
+	<div class="wrapper">
+		<!-- Header -->
+		<div class="header">
+			<!-- Logo -->
+			<a href="./bootstrap/docs/index.html" class="logo"><img src="./ico/zjulogo.png" alt="logo"></a>
+			<!-- Menu -->
+			<div class="menu-wrapper" id="menu-wrapper">
+				<ul class="menu">
+					<h2>
+
+						<!-- li><a href="./bootstrap/docs/examples/jumbotron-narrow/index.html">jumbotron-narrow</a></li>
+						<li><a href="./bootstrap/docs/examples/offcanvas/index.html">offcanvas</a></li>
+						<li><a href="./bootstrap/docs/examples/theme/index.html">theme</a></li>
+						<li><a href="./bootstrap/docs/examples/screenshots/index.html">screenshots</a></li>
+						<li><a href="./bootstrap/docs/examples/sticky-footer/index.html">sticky-footer</a></li>
+						<li><a href="./bootstrap/docs/examples/signin/index.html">signin</a></li-->
+
+					</h2>
+				</ul>
+			</div>
+			<div class="cleaner"></div>
+		</div>
+
+		<div id="myDiv">
+			<h2>使用 AJAX 修改该文本内容</h2>
+		</div>
+		<button type="button" onclick="loadXMLDoc()">修改内容</button>
+		<div id="myDiv"></div>
+		<script>
+			function loadXMLDoc()
+			{
+				var xmlhttp;
+				if (window.XMLHttpRequest)
+				{
+					// IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+					xmlhttp = new XMLHttpRequest();
+				} else
+				{
+					// IE6, IE5 浏览器执行代码
+					xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				xmlhttp.onreadystatechange = function()
+				{
+					if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+					{
+						alert(xmlhttp.responseText);
+						document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
+					}
+				}
+				xmlhttp.open("GET", "/greeting", true);
+				xmlhttp.send();
+			}
+		</script>
+
+		<!--Main page picture-->
+		<div class="video-slider">
+			<a href="./img/sunrise.jpg"><img src="./img/sunset.jpg" height="100%" width="100%"></a>
+			<video width="100%" height="100%" controls autoplay>
+				<source src="movie.ogg" type="video/ogg">
+				<source src="movie.mp4" type="video/mp4">
+				<source src="movie.webm" type="video/webm">
+				<object data="movie.mp4" width="320" height="240">
+					<embed width="320" height="240" src="movie.swf">
+				</object>
+			</video>
+		</div>
+
+		<!-- Welcome -->
+		<div class="welcome">
+			<div class="welcome-wrapper">
+				<!-- Welcome title -->
+				<h1>Welcome To Home Page</h1>
+				<!-- Welcome content -->
+				<p>孟子曰：孔子登东山而小鲁，登泰山而小天下。 故观于海者难为水，游于圣人之门者难为言。 观水有术，必观其澜。日月有明，容光必照焉。 流水之为物也，不盈科不行；君子之志于道也，不成章不达。</p>
+			</div>
+			<!-- Facilities -->
+			<div class="facilities">
+				<!-- Facilities title -->
+				<h2 class="custom-color">分类导航</h2>
+				<!-- Facilities list -->
+				<ul>
+					<h2>
+						<li><a href="./bootstrap/docs/examples/offcanvas/index.html">offcanvas</a></li>
+						<li><a href="./bootstrap/docs/examples/dashboard/index.html">DashBoard</a></li>
+						<li><a href="./bootstrap/docs/examples/blog/index.html">Blog</a></li>
+						<li><a href="./bootstrap/docs/examples/carousel/index.html">Carousel</a></li>
+						<li><a href="./bootstrap/docs/examples/cover/index.html">Cover</a></li>
+					</h2>
+				</ul>
+			</div>
+			<div class="cleaner"></div>
+			<!-- Welcome Class End -->
+		</div>
+
+
+		<!-- Middle part with testimonials and gallery -->
+		<div class="middle">
+			<!-- Testemonialsssss -->
+			<div class="testemonials">
+				<div class="testemonial">
+					<div class="img-wrapper">
+						<img src="./img/buddle.jpg" alt="testimonial" />
+					</div>
+					<span class="custom-color">Jay</span>
+				</div>
+				<div class="testemonial">
+					<div class="img-wrapper">
+						<img src="./img/buddle.jpg" alt="testimonial" />
+					</div>
+					<span class="custom-color">Miao</span>
+				</div>
+				<!--End of Testemonialsssss -->
+			</div>
+
+			<!-- Home gallery -->
+			<div class="gallery content-gallery">
+				<a href="./img/1239.jpg"> <img src="./img/1239.jpg" alt="gallery" class="height-full"></a> <a href="./img/1234.jpg"> <img
+					src="./img/1234.jpg" alt="gallery" class="height-full">
+				</a> <a href="./img/1235.jpg"> <img src="./img/1235.jpg" alt="gallery" class="height-full"></a> <a href="./img/1236.jpg"> <img
+					src="./img/1236.jpg" alt="gallery" class="height-full">
+				</a> <a href="./img/1237.jpg"> <img src="./img/1237.jpg" alt="gallery" class="height-full"></a> <a href="./img/1238.jpg"> <img
+					src="./img/1238.jpg" alt="gallery" class="height-full">
+				</a>
+			</div>
+			<div class="cleaner"></div>
+		</div>
+		<!-- End: middle -->
+
+		<!-- Footer -->
+
+		<div class="footer custom-color-back">
+			<!-- Directions -->
+			<div class="directions">
+				<div class="map" id="footer-map"></div>
+				<!-- Embed map -->
+				<script type="text/javascript">
+					function initialize()
+					{
+						var myLatlng = new google.maps.LatLng(30, 113.45);
+						var mapOptions = {
+							zoom : 10,
+							center : myLatlng,
+							scrollwheel : false
+						}
+						var map = new google.maps.Map(document
+								.getElementById('footer-map'), mapOptions);
+
+						var marker = new google.maps.Marker({
+							position : myLatlng,
+							map : map,
+							title : 'Hello World!'
+						});
+					}
+
+					google.maps.event
+							.addDomListener(window, 'load', initialize);
+				</script>
+
+				<!-- Address -->
+				<p>
+					<strong>Jay Zhang</strong><br> 430000, WUHAN, CHINA<a href="http://map.baidu.com/" target="_blank">Navigate</a>
+				</p>
+			</div>
+
+			<!-- News -->
+			<div class="news">
+				<p>
+					<strong>Couple news</strong>
+				</p>
+				<ul>
+					<li><a href="./data">DATA</a></li>
+					<li><a href="./greeting">Greeting</a></li>
+				</ul>
+			</div>
+
+			<div class="cleaner"></div>
+
+			<!-- Copyright -->
+			<p class="copyright">
+				@CopyRight 2016-2017 <a href="http://182.92.155.48:8080/" target="_blank">Jay</a>
+			</p>
+
+			<!-- Socials -->
+			<div class="socials-wrapper">
+				<ul class="socials">
+					<li><a href="https://www.facebook.com/jay.zhang.7737" target="_blank"><img src="./ico/socials/facebook_1.png" alt="social"></a></li>
+					<li><a href="https://twitter.com/24zhangjie" target="_blank"><img src="./ico/socials/twitter_1.png" alt="social"></a></li>
+					<li><a href="http://weibo.com/u/2278138772/home?wvr=5" target="_blank"><img src="./ico/socials/weibo.png" alt="social"></a></li>
+					<li><a href="https://github.com/24Jay" target="_blank"><img src="./ico/socials/github.png" alt="social"></a></li>
+				</ul>
+			</div>
+			<div class="cleaner"></div>
+
+		</div>
+		<!-- End: Footer -->
+	</div>
+	<!-- End: WRAPPER -->
+	<script type="text/javascript" src="./js/jquery-ui.js"></script>
+</body>
+</html>
